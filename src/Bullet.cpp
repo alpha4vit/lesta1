@@ -3,7 +3,7 @@
 Bullet::Bullet()
 {
 	this->img = Image();
-	if (!this->img.loadFromFile("image/bullet.png")) {
+	if (!this->img.loadFromFile("src/bullet.png")) {
 		exit(-1);
 	}
 	this->texture = Texture();
