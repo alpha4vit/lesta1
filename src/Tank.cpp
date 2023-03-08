@@ -3,7 +3,7 @@
 Tank::Tank(int& screenW, int& screenH)
 {
 	this->img = Image();
-	if (!this->img.loadFromFile("src/tank.png")) {
+	if (!this->img.loadFromFile("../src/images/tank.png")) {
 		exit(-1);
 	}
 	this->texture = Texture();

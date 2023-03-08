@@ -3,7 +3,7 @@
 Background::Background()
 {
 	this->img = Image();
-	this->img.loadFromFile("src/bg.png");
+	this->img.loadFromFile("../src/images/bg.png");
 	this->texture = Texture();
 	this->texture.loadFromImage(this->img);
 	this->sprite = Sprite();

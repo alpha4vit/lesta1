@@ -4,7 +4,7 @@ Enemy::Enemy(Tank& tank, int& screenW, int&screenH, vector<Enemy>& enemies)
 {
 	
 	this->img = Image();
-	this->img.loadFromFile("src/tank.png");
+	this->img.loadFromFile("../src/images/tank.png");
 	this->texture = Texture();
 	this->texture.loadFromImage(this->img);
 	this->sprite = Sprite();
