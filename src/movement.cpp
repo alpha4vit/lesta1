@@ -13,7 +13,7 @@ void moveUp(Sprite& tank, float& speedTank)
 void moveDown(Sprite& tank, float& speedTank, int screenHeight)
 {
 	tank.setRotation(180);
-	if (tank.getPosition().y + 260 < screenHeight) {
+	if (tank.getPosition().y + 175 < screenHeight) {
 		tank.move(0, speedTank);
 	}
 }
